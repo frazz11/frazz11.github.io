@@ -34,6 +34,7 @@ github_username:  jekyll
 #theme: jekyll-theme-dinky
 theme: minima
 theme: jekyll-theme-minimal
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
