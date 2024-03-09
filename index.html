@@ -15,15 +15,17 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles.css" />
-    <title>Raj Shekhar</title>
+    <title>Francesco Zappa</title>
   </head>
   <body class="light" id="top">
     <header class="header center">
+      <!--
       <h3>
         <a href="https://rajshekhar26.github.io/cleanfolio-minimal" class="link"
           >RS.</a
         >
       </h3>
+      -->
 
       <nav class="nav center">
         <ul class="nav__list center">
@@ -55,23 +57,27 @@
     <main>
       <!-- About -->
       <div class="about center">
-        <h1>Hi, I am <span class="about__name">Raj Shekhar.</span></h1>
-        <h2 class="about__role">A Front end Developer.</h2>
+        <h1>Hi, I am <span class="about__name">Francesco Zappa.</span></h1>
+        <h2 class="about__role">A Software Developer.</h2>
         <p class="about__desc">
           Consectetur neque sed quam molestiae consectetur nesciunt sit alias
           Vitae libero perferendis reprehenderit optio veritatis Accusantium at
           voluptatum cumque temporibus et Explicabo iste porro quis numquam
           distinctio Repellendus adipisci nam perferendis amet eaque hic
-          Voluptates
+          Voluptates.
+	</p>  
+	<p class="about__desc">
+	  I am currently putting together some Python and C++ codes I developed
+	  during my PhD and publishing it on my GitHub account. So, stay tuned for
+	  updates!
         </p>
 
         <div class="about__contact center">
           <a href="https://example.com">
             <span class="btn btn--outline">Resume</span>
           </a>
-
           <a
-            href="https://github.com/rajshekhar26"
+            href="https://github.com/frazz11"
             aria-label="github"
             class="link link--icon"
           >
@@ -79,7 +85,7 @@
           </a>
 
           <a
-            href="https://linkedin.com/in/rajshekhar26"
+            href="https://www.linkedin.com/in/francesco-zappa-13545922b"
             aria-label="linkedin"
             class="link link--icon"
           >
@@ -94,47 +100,42 @@
 
         <div class="projects__grid">
           <div class="project">
-            <h3>Project 1</h3>
+            <h3>Wave equation solver</h3>
             <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
+	      A python code developed to solve the wave equation.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Python <i class="fab fa-python"></i></li>
             </ul>
 
             <a
-              href="https://github.com"
+              href="https://github.com/frazz11/wave-equation"
               aria-label="source code"
               class="link link--icon"
             >
               <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
           </div>
 
           <div class="project">
-            <h3>Project 2</h3>
+            <h3>Tensor wave equation</h3>
             <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
+	      A parallel code written in C++ with the modern Kokkos library to solve the tensor
+	      wave equation. 
+	      The code is performance portable, meaning it 
+	      can be executed on CPUs and GPUs.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Kokkos</li>
+	      <!--<li class="project__stack-item">React</li>-->
             </ul>
-
+            <ul class="project__stack">
+              <li class="project__stack-item">Soon to appear..</li>
+	      <!--<li class="project__stack-item">React</li>-->
+            </ul>
+            
+	    <!--
             <a
               href="https://github.com"
               aria-label="source code"
@@ -149,8 +150,45 @@
             >
               <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
+	    -->
           </div>
-
+	  
+          <div class="project">
+            <h3>Evolution of black holes</h3>
+            <p class="project__description">
+	      A code written in C++ with the modern Kokkos library to solve Einstein Equations
+	      and evolve a Black Hole.
+	      The code is performance portable, meaning it 
+	      can be executed on CPUs and GPUs.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Kokkos</li>
+	      <!--<li class="project__stack-item">React</li>-->
+            </ul>
+            <ul class="project__stack">
+              <li class="project__stack-item">Soon to appear..</li>
+	      <!--<li class="project__stack-item">React</li>-->
+            </ul>
+            
+	    <!--
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+	    -->
+          </div>
+          <!--
           <div class="project">
             <h3>Project 3</h3>
             <p class="project__description">
@@ -180,42 +218,71 @@
             </a>
           </div>
         </div>
+        -->
       </section>
 
       <!-- Skills -->
       <section class="section skills" id="skills">
         <h2 class="section__title">Skills</h2>
         <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">bash</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
           <li class="skills__list-item btn btn--plain">HTML</li>
           <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">SCSS</li>
           <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <!--<li class="skills__list-item btn btn--plain">SCSS</li>
           <li class="skills__list-item btn btn--plain">TypeScript</li>
           <li class="skills__list-item btn btn--plain">React</li>
           <li class="skills__list-item btn btn--plain">Redux</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
           <li class="skills__list-item btn btn--plain">Material UI</li>
           <li class="skills__list-item btn btn--plain">Jest</li>
           <li class="skills__list-item btn btn--plain">Enzyme</li>
-          <li class="skills__list-item btn btn--plain">CI/CD</li>
+	  <li class="skills__list-item btn btn--plain">CI/CD</li>-->
         </ul>
       </section>
 
       <!-- Contact -->
       <section class="section contact center" id="contact">
         <h2 class="section__title">Contact</h2>
-        <a href="mailto:rjshekhar.official@gmail.com">
+        <a href="mailto:phd.francesco.zappa@gmail.com">
           <span class="btn btn--outline">Email me</span>
         </a>
       </section>
+
+      
     </main>
 
     <footer class="footer">
+      <div class="about center">
+	<div class="about__icon center">
+          <a
+            href="https://github.com/frazz11"
+            aria-label="github"
+            class="link link--iconfooter"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/francesco-zappa-13545922b"
+            aria-label="linkedin"
+            class="link link--iconfooter"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+	</div>
+      </div>
+      
+      Template from 
       <a
         href="https://github.com/rajshekhar26/cleanfolio-minimal"
         class="link footer__link"
       >
-        Created By Raj Shekhar
+        cleanfolio-minimal
       </a>
     </footer>
 
