@@ -1,12 +1,7 @@
-# Cleanfolio Minimal
+# Francesco Zappa's website
+In this website I am showing all my relevant skills and some of the projects I worked on and that I am publishing on GitHub.
 
-A portfolio template built with HTML, CSS, and JavaScript.
-
-## Preview
-
-[![imgur](https://i.imgur.com/5z7cvMz.gif)](https://rajshekhar26.github.io/cleanfolio-minimal)
-
-[Live Demo](https://rajshekhar26.github.io/cleanfolio-minimal)
+To make this website I am using [Cleanfolio](https://rajshekhar26.github.io/cleanfolio-minimal), a simple and basic portfolio template built with HTML, CSS, and JavaScript.
 
 ## License
 
